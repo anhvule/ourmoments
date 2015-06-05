@@ -11,12 +11,6 @@
                     <view key="view" contentMode="scaleToFill" id="gif-G9-3W5">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paper" id="K72-FI-FdB">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                            </imageView>
-                        </subviews>
                         <color key="backgroundColor" red="0.94410213289759137" green="1" blue="0.38684611316419926" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Photo" id="oqr-Pb-d4U"/>
@@ -44,9 +38,6 @@
             <point key="canvasLocation" x="-208" y="407"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="paper" width="256" height="256"/>
-    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

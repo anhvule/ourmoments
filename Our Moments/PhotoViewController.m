@@ -18,7 +18,8 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
     
-    [self view].backgroundColor = [UIColor redColor];
+    UIImage *patternImage = [UIImage imageNamed:@"paper.jpg"];
+    self.view.backgroundColor = [UIColor colorWithPatternImage:patternImage];
 }
 
 - (void)didReceiveMemoryWarning {
