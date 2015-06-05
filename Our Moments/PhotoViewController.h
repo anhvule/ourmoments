@@ -1,5 +1,5 @@
 //
-//  SecondViewController.h
+//  PhotoViewController.h
 //  Our Moments
 //
 //  Created by Vu Le on 6/5/15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SecondViewController : UIViewController
-
+@interface PhotoViewController : UIViewController
 
 @end
-
