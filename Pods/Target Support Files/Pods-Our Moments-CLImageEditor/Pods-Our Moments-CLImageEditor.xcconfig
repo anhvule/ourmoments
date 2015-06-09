@@ -1,0 +1,1 @@
+PODS_OUR_MOMENTS_CLIMAGEEDITOR_OTHER_LDFLAGS = -framework "Accelerate" -framework "CoreGraphics" -framework "CoreImage"

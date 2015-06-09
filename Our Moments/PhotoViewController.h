@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface PhotoViewController : UIViewController
+- (IBAction)pickPhoto:(id)sender;
+
+@property (weak, nonatomic) IBOutlet UIImageView *imageView;
 
 @end

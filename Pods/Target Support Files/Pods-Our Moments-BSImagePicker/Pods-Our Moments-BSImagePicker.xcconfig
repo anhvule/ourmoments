@@ -1,0 +1,1 @@
+PODS_OUR_MOMENTS_BSIMAGEPICKER_OTHER_LDFLAGS = -framework "AssetsLibrary" -framework "MediaPlayer" -framework "UIKit"

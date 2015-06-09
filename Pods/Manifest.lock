@@ -1,0 +1,15 @@
+PODS:
+  - BSImagePicker (0.7)
+  - CLImageEditor (0.1.4):
+    - CLImageEditor/Core (= 0.1.4)
+  - CLImageEditor/Core (0.1.4)
+
+DEPENDENCIES:
+  - BSImagePicker (= 0.7)
+  - CLImageEditor
+
+SPEC CHECKSUMS:
+  BSImagePicker: df4f325f43330d853285c57ee7661ec5c408a124
+  CLImageEditor: 9d388449af816729da67e68465e20462f181841d
+
+COCOAPODS: 0.37.2

@@ -1,0 +1,6 @@
+framework module Pods_Our_Moments {
+  umbrella header "Pods-Our Moments-umbrella.h"
+
+  export *
+  module * { export * }
+}

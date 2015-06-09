@@ -1,0 +1,6 @@
+framework module CLImageEditor {
+  umbrella header "Pods-Our Moments-CLImageEditor-umbrella.h"
+
+  export *
+  module * { export * }
+}
