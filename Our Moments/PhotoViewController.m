@@ -11,6 +11,9 @@
 #import <BSImagePicker/BSImagePickerController.h>
 #import <MobileCoreServices/MobileCoreServices.h>
 #import "CLImageEditor/CLImageEditor.h"
+#import <AssetsLibrary/ALAsset.h>
+#import <AssetsLibrary/ALAssetsLibrary.h>
+#import <AssetsLibrary/ALAssetRepresentation.h>
 
 @interface PhotoViewController()
 <CLImageEditorDelegate>
@@ -84,7 +87,9 @@
                                     ALAsset *asset = (ALAsset*)assets[0];
                                     ALAssetRepresentation *assetRepresentation = [asset defaultRepresentation];
                                     
-//                                    UIImage *img = [UIImage imageWithCGImage:[[asset defaultRepresentation] fullResolutionImage];
+                                    UIImage *img = [UIImage imageWithCGImage:[assetRepresentation fullResolutionImage]];
+                                    
+                                    [self presentImageEditorWithImage:img];
                                 }];
 
 }

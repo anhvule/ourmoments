@@ -10,12 +10,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Our Moments/PhotoViewController.m"
-            timestampString = "455539765.308549"
+            timestampString = "455542204.181128"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "74"
-            endingLineNumber = "74"
-            landmarkName = "-imageFromAsset:"
+            startingLineNumber = "85"
+            endingLineNumber = "85"
+            landmarkName = "-pickPhoto:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -26,12 +26,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Our Moments/PhotoViewController.m"
-            timestampString = "455539765.308549"
+            timestampString = "455542204.181128"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "73"
-            endingLineNumber = "73"
-            landmarkName = "-imageFromAsset:"
+            startingLineNumber = "82"
+            endingLineNumber = "82"
+            landmarkName = "-pickPhoto:"
             landmarkType = "5">
             <Locations>
                <Location

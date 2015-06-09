@@ -15,6 +15,8 @@
 		B9BF1CF11B2188C100337987 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9BF1CEF1B2188C100337987 /* LaunchScreen.xib */; };
 		B9BF1CFD1B2188C100337987 /* Our_MomentsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B9BF1CFC1B2188C100337987 /* Our_MomentsTests.m */; };
 		B9BF1D0E1B21B7BF00337987 /* PhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9BF1D0C1B21B7BF00337987 /* PhotoViewController.m */; };
+		B9CBA27B1B270576008D39BE /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9CBA27A1B270576008D39BE /* AssetsLibrary.framework */; };
+		B9CBA27D1B270587008D39BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9CBA27C1B270587008D39BE /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +45,8 @@
 		B9BF1CFC1B2188C100337987 /* Our_MomentsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Our_MomentsTests.m; sourceTree = "<group>"; };
 		B9BF1D0B1B21B7BF00337987 /* PhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoViewController.h; sourceTree = "<group>"; };
 		B9BF1D0C1B21B7BF00337987 /* PhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoViewController.m; sourceTree = "<group>"; };
+		B9CBA27A1B270576008D39BE /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		B9CBA27C1B270587008D39BE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F4686CB9FFB46D3E12C083C6 /* Pods-Our Moments.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Our Moments.release.xcconfig"; path = "Pods/Target Support Files/Pods-Our Moments/Pods-Our Moments.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -51,6 +55,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9CBA27D1B270587008D39BE /* Foundation.framework in Frameworks */,
+				B9CBA27B1B270576008D39BE /* AssetsLibrary.framework in Frameworks */,
 				3F951111AFA2A507ADAF46F6 /* Pods_Our_Moments.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -68,6 +74,8 @@
 		A8872621B62FB294014249AC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B9CBA27C1B270587008D39BE /* Foundation.framework */,
+				B9CBA27A1B270576008D39BE /* AssetsLibrary.framework */,
 				866DE964FC537C1D40F41D2F /* Pods_Our_Moments.framework */,
 			);
 			name = Frameworks;
